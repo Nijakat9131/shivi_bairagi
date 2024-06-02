@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+          h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: oblique;
+            color: brown;
+            margin-top: 100px;
+            font-size: 5rem;
+            text-align: center;
+        }
+
+        h3, h5{
+            color: crimson;
+
+        }
+
+        .row{
+            display: flex;
+        }
+.column {
+
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <h1>My Hobby</h1>
+        <h3>My hobby is eating delecioucs dises. I love to eat and eat and eat. some of the favourate dises that i love are :</h3>
+
+    </div>
+
+
+    <div class="row">
+        <div class="column">
+          <img src="./noodle.jpg" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="./panipuri.jpg" alt="Forest" style="width:86%">
+        </div>
+        <div class="column">
+          <img src="./rashgulla.jpg" alt="Mountains" style="width:90%">
+        </div>
+      </div>
+      <div>
+        <h5>I love the chines dishes the most but specially Noodels it is my life pani puri is also one of the favourait. and in sweets i like the rashgulllaa.</h5>
+        <h5>After that i love dancing, to explore new places, i just want to explore all the word.</h5>
+    </div>
+    
+</body>
+</html>
